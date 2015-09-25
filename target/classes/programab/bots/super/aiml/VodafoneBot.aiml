@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<aiml version="2.0">
+    <category>
+        <pattern>HELLO CAN YOU HELP ME</pattern>
+        <template>
+            You’ve reached the Vodafone Call center. My name is Alicia. How can I help you today?
+        </template>
+    </category>
+    
+    <category>
+    <pattern>HELLO</pattern>
+        <template>
+        <srai>HELLO CAN YOU HELP ME</srai>
+        </template>
+    </category>
+    
+    <category>
+    <pattern>CAN YOU HELP ME</pattern>
+        <template>
+        <srai>HELLO CAN YOU HELP ME</srai>
+        </template>
+    </category>
+    
+    <category>
+    <pattern>HI</pattern>
+        <template>
+        <srai>HELLO CAN YOU HELP ME</srai>
+        </template>
+    </category>
+    
+    <category>
+    <pattern>HI, CAN YOU HELP ME</pattern>
+        <template>
+        <srai>HELLO CAN YOU HELP ME</srai>
+        </template>
+    </category>
+    <category>
+    <pattern>HELLO, CAN YOU HELP ME</pattern>
+        <template>
+        <srai>HELLO CAN YOU HELP ME</srai>
+        </template>
+    </category>
+    
+    
+ <category>
+        <pattern>WHAT DOES YOUR BUSINESS OR ORGANIZATION DO</pattern>
+        <template>At Vodafone our focus is on excellent customer service. We always aim to be within easy reach and we want to make sure you get the answers you want quickly and easily.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT DOES YOUR * DO</pattern>        
+        <template>
+            <srai>WHAT DOES YOUR BUSINESS OR ORGANIZATION DO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT DO YOU DO</pattern>
+        <template>
+            <srai>WHAT DOES YOUR BUSINESS OR ORGANIZATION DO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ACTIVITIES DO YOU DO</pattern>
+        <template>
+            <srai>WHAT DOES YOUR BUSINESS OR ORGANIZATION DO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ACTIVITIES DOES YOUR * DO</pattern>
+        <template>
+            <srai>WHAT DOES YOUR BUSINESS OR ORGANIZATION DO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ACTIVITIES DOES YOUR * PERFORM</pattern>
+        <template>
+            <srai>WHAT DOES YOUR BUSINESS OR ORGANIZATION DO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT SERVICES DOES YOUR BUSINESS PROVIDE</pattern>
+        <template>Your plan will provide you services around viewing and paying your bills, tracking an order, report and track faults etc. If you need specific information, I can help you.
+        </template>
+    </category>
+
+    <category>
+        <pattern> WHAT SERVICES DO YOU PROVIDE </pattern>
+        <template>
+            <srai>WHAT SERVICES DOES YOUR BUSINESS PROVIDE </srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT SERVICES ARE PROVIDED BY YOUR *</pattern>
+        <template>
+            <srai>WHAT SERVICES DOES YOUR BUSINESS PROVIDE </srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SERVICES YOUR * PROVIDES</pattern>
+        <template>
+            <srai>WHAT SERVICES DOES YOUR BUSINESS PROVIDE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>I WANT TO REPORT A FAULTY SERVICE</pattern>
+        <template>Certainly. Can you please share your customer ID so that I can fetch the relevant information for your account?
+        </template>
+    </category>
+
+    <category>
+        <pattern>236291</pattern>
+        <template>Thanks for this. I can see that you have bought quad play bundle from us that provides voice, data, TV and mobile. Which service are you facing a problem with?
+        </template>
+    </category>
+
+    <category>
+        <pattern>I WANT TO REPORT *</pattern>
+        <template>
+            <srai>I WANT TO REPORT A FAULTY SERVICE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>I AM OBSERVING GLITCHES WITH MY TV</pattern>
+        <template>
+            May I ask if the issue you are facing is with the remote or something else?
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>THE REMOTE IS WORKING FINE ITS THE QUALITY OF PICTURE ON SOME OF THE CHANNELS</pattern>
+        <template>
+            Sorry to hear that. Would you categorize the problem as Total loss of service or Quality of service or missing content.
+        </template>
+    </category>
+    <category>
+        <pattern>* ITS THE QUALITY OF PICTURE ON SOME OF THE CHANNELS</pattern>
+        <template>
+            <srai>THE REMOTE IS WORKING FINE ITS THE QUALITY OF PICTURE ON SOME OF THE CHANNELS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUALITY OF SERVICE</pattern>
+        <template>To investigate this further, I need to know whether you are viewing TV through the set top box or on a mobile device.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I'M USING THE SET TOP BOX</pattern>
+        <template>
+            Thanks for the confirmation. Are you using the Vodafone supplied set top box or is it your personal equipment. Which channels are you facing a problem with?
+        </template>
+    </category>
+
+    <category>
+        <pattern>BBC1</pattern>
+        <template>
+            Are you also oberving similar issues with BBC2 and BBC3?
+        </template>
+    </category>
+
+    <category>
+        <pattern>YES I AM</pattern>
+        <template>
+            I am sorry I couldn't find any known issue in your area. Please bear with me and I will log an incident on your behalf.
+        </template>
+    </category>
+    <category>
+        <pattern>* AM</pattern>
+        <template>
+            <srai>YES I AM</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>YES PLEASE GO AHEAD</pattern>
+        <template>
+            Thanks for your patience. Your incident reference is FLT758913. Please make a note of this. To track updates on this incident, you can login into https://myenterprise.vodafone.com and use this reference. Alternatively you can give us a call at 0800 048 2088 and we'll be happy to help.
+        </template>
+    </category>
+    <category>
+        <pattern>* AHEAD</pattern>
+        <template>
+            <srai>YES PLEASE GO AHEAD</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SURE THANKS</pattern>
+        <template>
+            Is there anything else I can help you with today?
+        </template>
+    </category>
+    <category>
+        <pattern>NO THAT WILL BE ALL</pattern>
+        <template>
+            Thank you. Have a nice day.
+        </template>
+    </category>
+    <category>
+        <pattern>* THAT WILL BE ALL</pattern>
+        <template>
+            <srai>NO THAT WILL BE ALL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <template>I'm sorry, I'm not sure how to respond to your question. Please call our service desk at 0800 048 2088 with your concern and we'll be happy to help.
+        </template>
+    </category>
+
+</aiml>
+

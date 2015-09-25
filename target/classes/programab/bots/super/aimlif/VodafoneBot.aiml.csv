@@ -1,0 +1,33 @@
+0,HELLO CAN YOU HELP ME,*,*,You’ve reached the Vodafone Call center. My name is Alicia. How can I help you today?,VodafoneBot.aiml
+0,HELLO,*,*,<srai>HELLO CAN YOU HELP ME</srai>,VodafoneBot.aiml
+0,CAN YOU HELP ME,*,*,<srai>HELLO CAN YOU HELP ME</srai>,VodafoneBot.aiml
+0,HI,*,*,<srai>HELLO CAN YOU HELP ME</srai>,VodafoneBot.aiml
+0,HI, CAN YOU HELP ME,*,*,<srai>HELLO CAN YOU HELP ME</srai>,VodafoneBot.aiml
+0,HELLO, CAN YOU HELP ME,*,*,<srai>HELLO CAN YOU HELP ME</srai>,VodafoneBot.aiml
+0,WHAT DOES YOUR BUSINESS OR ORGANIZATION DO,*,*,At Vodafone our focus is on excellent customer service. We always aim to be within easy reach and we want to make sure you get the answers you want quickly and easily.,VodafoneBot.aiml
+0,WHAT DOES YOUR * DO,*,*,<srai>WHAT DOES YOUR BUSINESS OR ORGANIZATION DO</srai>,VodafoneBot.aiml
+0,WHAT DO YOU DO,*,*,<srai>WHAT DOES YOUR BUSINESS OR ORGANIZATION DO</srai>,VodafoneBot.aiml
+0,WHAT ACTIVITIES DO YOU DO,*,*,<srai>WHAT DOES YOUR BUSINESS OR ORGANIZATION DO</srai>,VodafoneBot.aiml
+0,WHAT ACTIVITIES DOES YOUR * DO,*,*,<srai>WHAT DOES YOUR BUSINESS OR ORGANIZATION DO</srai>,VodafoneBot.aiml
+0,WHAT ACTIVITIES DOES YOUR * PERFORM,*,*,<srai>WHAT DOES YOUR BUSINESS OR ORGANIZATION DO</srai>,VodafoneBot.aiml
+0,WHAT SERVICES DOES YOUR BUSINESS PROVIDE,*,*,Your plan will provide you services around viewing and paying your bills#Comma tracking an order#Comma report and track faults etc. If you need specific information#Comma I can help you.,VodafoneBot.aiml
+0,WHAT SERVICES DO YOU PROVIDE,*,*,<srai>WHAT SERVICES DOES YOUR BUSINESS PROVIDE </srai>,VodafoneBot.aiml
+0,WHAT SERVICES ARE PROVIDED BY YOUR *,*,*,<srai>WHAT SERVICES DOES YOUR BUSINESS PROVIDE </srai>,VodafoneBot.aiml
+0,WHAT ARE THE SERVICES YOUR * PROVIDES,*,*,<srai>WHAT SERVICES DOES YOUR BUSINESS PROVIDE</srai>,VodafoneBot.aiml
+0,I WANT TO REPORT A FAULTY SERVICE,*,*,Certainly. Can you please share your customer ID so that I can fetch the relevant information for your account?,VodafoneBot.aiml
+0,236291,*,*,Thanks for this. I can see that you have bought quad play bundle from us that provides voice#Comma data#Comma TV and mobile. Which service are you facing a problem with?,VodafoneBot.aiml
+0,I WANT TO REPORT *,*,*,<srai>I WANT TO REPORT A FAULTY SERVICE</srai>,VodafoneBot.aiml
+0,I AM OBSERVING GLITCHES WITH MY TV,*,*,May I ask if the issue you are facing is with the remote or something else?,VodafoneBot.aiml
+0,THE REMOTE IS WORKING FINE ITS THE QUALITY OF PICTURE ON SOME OF THE CHANNELS,*,*,Sorry to hear that. Would you categorize the problem as Total loss of service or Quality of service or missing content.,VodafoneBot.aiml
+0,* ITS THE QUALITY OF PICTURE ON SOME OF THE CHANNELS,*,*,<srai>THE REMOTE IS WORKING FINE ITS THE QUALITY OF PICTURE ON SOME OF THE CHANNELS</srai>,VodafoneBot.aiml
+0,QUALITY OF SERVICE,*,*,To investigate this further#Comma I need to know whether you are viewing TV through the set top box or on a mobile device.,VodafoneBot.aiml
+0,I'M USING THE SET TOP BOX,*,*,Thanks for the confirmation. Are you using the Vodafone supplied set top box or is it your personal equipment. Which channels are you facing a problem with?,VodafoneBot.aiml
+0,BBC1,*,*,Are you also oberving similar issues with BBC2 and BBC3?,VodafoneBot.aiml
+0,YES I AM,*,*,I am sorry I couldn't find any known issue in your area. Please bear with me and I will log an incident on your behalf.,VodafoneBot.aiml
+0,* AM,*,*,<srai>YES I AM</srai>,VodafoneBot.aiml
+0,YES PLEASE GO AHEAD,*,*,Thanks for your patience. Your incident reference is FLT758913. Please make a note of this. To track updates on this incident#Comma you can login into https://myenterprise.vodafone.com and use this reference. Alternatively you can give us a call at 0800 048 2088 and we'll be happy to help.,VodafoneBot.aiml
+0,* AHEAD,*,*,<srai>YES PLEASE GO AHEAD</srai>,VodafoneBot.aiml
+0,SURE THANKS,*,*,Is there anything else I can help you with today?,VodafoneBot.aiml
+0,NO THAT WILL BE ALL,*,*,Thank you. Have a nice day.,VodafoneBot.aiml
+0,* THAT WILL BE ALL,*,*,<srai>NO THAT WILL BE ALL</srai>,VodafoneBot.aiml
+0,*,*,*,I'm sorry#Comma I'm not sure how to respond to your question. Please call our service desk at 0800 048 2088 with your concern and we'll be happy to help.,VodafoneBot.aiml
